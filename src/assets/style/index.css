@@ -1,0 +1,38 @@
+[class^="zd-icon"], [class*="zd-icon"]
+{
+    font-family:"iconfont" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 24px;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: middle;
+}
+body,html{height: 100%;margin: 0;}
+body{font-size: 14px; min-width: 1300px;}
+#app{font-family:-apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;}
+p{margin: 0px;}
+*{box-sizing: border-box;}
+h3,h2{margin: 0px;}
+h3 .small{margin-left: 5px; font-weight: 400; }
+.small{font-size: 12px;}
+a{cursor: pointer}
+ul{margin: 0px; padding: 0px;}
+li{list-style: none;}
+/* .pages ul{width: 100%;display: flex;justify-content: center;margin-top: 10px;}
+.pages ul li{width: 40px;background: #409EFF;color: #fff;line-height: 40px;text-align: center;border-radius: 8px;margin: 0 4px;cursor: pointer;} */
+.central-control{width: 96%;margin:70px auto 0;}
+.central-control .search{display: flex;flex-wrap: wrap}
+.central-control .search>div{display: flex;align-items: center;margin-right: 10px}
+.central-control .search>div span{display: block;white-space: nowrap;margin-right: 4px;font-size: 15px;font-weight: bold;}
+/* .central-control .control-box{margin-top: 20px;} */
+.dialog-edit .el-form--inline .el-form-item__label{width: 100px;}
+.dialog-edit .el-input--suffix .el-input__inner{width:202px;}
+/* .control-box .el-row .box-card{padding: 0;} */
+.el-collapse-item__header .queue-title{margin-left: 20px;}
+.el-collapse-item__header .el-collapse-item__arrow{position: absolute;left: 0;}
+.item-content .control .el-checkbox__inner{width:30px;height: 30px;}
+.item-content .control .el-checkbox__inner::after{left:12px;top:8px;transform: rotate(45deg) scale(2,2) !important;}
+ul.pages{display: flex;justify-content: center;margin-top: 10px}
+ul.pages li{width: 30px;height: 30px;margin: 0 5px;background: #409EFF;line-height: 30px;border-radius: 5px;color:#fff;text-align: center;cursor: pointer;}
